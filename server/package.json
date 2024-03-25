@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "webRtc app",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+   "start":"node index.js",
+   "dev":"nodemon index.js"
+  },
+  "author": "ankit kumar gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "socket.io": "^4.7.5"
+  }
+}
